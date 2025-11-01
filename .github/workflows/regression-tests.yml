@@ -2,7 +2,7 @@ name: Testes Regressivos Cadastro e Login
 
 on:
   push:
-    branches: [ main, feature/* ]
+    branches: [ main, feature/create-pipeline ]
   pull_request:
     branches: [ main ]
 
