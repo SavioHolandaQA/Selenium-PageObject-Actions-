@@ -1,13 +1,14 @@
 name: Testes Regressivos Cadastro e Login
 
 on:
+  push:
+    branches: [ main, feature/* ]
   pull_request:
     branches: [ main ]
 
 jobs:
   RunTest:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
